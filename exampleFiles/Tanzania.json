@@ -1,0 +1,785 @@
+{
+    "meta": {
+        "name": "Tanzania",
+        "description": ""
+    },
+    "engine": {
+        "meta": {
+            "name": "Default Tanzania SPOM Engine",
+            "description": "The Default Tanzania SPOM Engine"
+        },
+        "simulationType": "Iterator",
+        "dispersalFunction": {
+            "alpha": 0.0011,
+            "beta": 1,
+            "type": "Hanski1999"
+        },
+        "connectivityFunction": {
+            "b": 1,
+            "type": "MolianenA2004"
+        },
+        "colonizationFunction": {
+            "y": 5.22,
+            "type": "HanskiA1994"
+        },
+        "intrinsicExtinctionFunction": {
+            "e": 90,
+            "x": 1,
+            "type": "Hanski2002"
+        },
+        "correlatedExtinctionFunction": {
+            "c": 0
+        }
+    },
+    "network": {
+        "meta": {
+            "name": "Tanzania Network",
+            "description": ""
+        },
+        "patches": [
+            {
+                "id": 0,
+                "area": 742,
+                "pos": {
+                    "x": 32012.211505675703,
+                    "y": -10251.052512837297
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 1,
+                "area": 348,
+                "pos": {
+                    "x": 3079.0180556756823,
+                    "y": 28774.515797162705
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 2,
+                "area": 521,
+                "pos": {
+                    "x": -4524.7998243243055,
+                    "y": 26160.983427161627
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 3,
+                "area": 324,
+                "pos": {
+                    "x": 13493.533845675658,
+                    "y": -11384.485682837389
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 4,
+                "area": 211,
+                "pos": {
+                    "x": -12308.13395432428,
+                    "y": 24650.930627161913
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 5,
+                "area": 371,
+                "pos": {
+                    "x": 16879.07217567567,
+                    "y": -13271.318092837653
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 6,
+                "area": 496,
+                "pos": {
+                    "x": -8296.381194324335,
+                    "y": 24677.280007161477
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 7,
+                "area": 517,
+                "pos": {
+                    "x": 12026.1876856757,
+                    "y": 10817.882117161804
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 8,
+                "area": 425,
+                "pos": {
+                    "x": -23339.945874324287,
+                    "y": -2730.7670828380647
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 9,
+                "area": 288,
+                "pos": {
+                    "x": -20662.898694324293,
+                    "y": -27973.401182837508
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 10,
+                "area": 249,
+                "pos": {
+                    "x": -15515.141454324345,
+                    "y": 26424.947107162603
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 11,
+                "area": 539,
+                "pos": {
+                    "x": 8500.818055675729,
+                    "y": 1566.1461071616945
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 12,
+                "area": 813,
+                "pos": {
+                    "x": 7400.350705675679,
+                    "y": 10825.770427162104
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 13,
+                "area": 428,
+                "pos": {
+                    "x": 26198.57136567567,
+                    "y": -7542.81035283739
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 14,
+                "area": 204,
+                "pos": {
+                    "x": 18396.341005675626,
+                    "y": 438.88162716319533
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 15,
+                "area": 542,
+                "pos": {
+                    "x": -13292.54495432436,
+                    "y": 270.9724571614501
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 16,
+                "area": 369,
+                "pos": {
+                    "x": -25806.264814324313,
+                    "y": 9686.613487161972
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 17,
+                "area": 323,
+                "pos": {
+                    "x": -3588.885944324298,
+                    "y": 5142.178107161351
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 18,
+                "area": 221,
+                "pos": {
+                    "x": 23296.150655675694,
+                    "y": -1894.810442838541
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 19,
+                "area": 552,
+                "pos": {
+                    "x": 27351.47648567568,
+                    "y": -4462.447602838001
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 20,
+                "area": 308,
+                "pos": {
+                    "x": -15095.705324324299,
+                    "y": -18538.304302837423
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 21,
+                "area": 339,
+                "pos": {
+                    "x": 16502.79680567562,
+                    "y": 7047.586567161881
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 22,
+                "area": 177,
+                "pos": {
+                    "x": -10468.792204324374,
+                    "y": -17483.164432838283
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 23,
+                "area": 325,
+                "pos": {
+                    "x": 20823.238855675692,
+                    "y": 2515.123627161884
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 24,
+                "area": 311,
+                "pos": {
+                    "x": 8201.389275675654,
+                    "y": -5384.235922837353
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 25,
+                "area": 116,
+                "pos": {
+                    "x": 11675.426025675624,
+                    "y": -8872.216712837762
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 26,
+                "area": 746,
+                "pos": {
+                    "x": -19217.668914324357,
+                    "y": -1509.3226928372892
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 27,
+                "area": 440,
+                "pos": {
+                    "x": 19500.07798567567,
+                    "y": 14807.390887161993
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 28,
+                "area": 297,
+                "pos": {
+                    "x": -20747.492624324383,
+                    "y": 3791.261347161883
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 29,
+                "area": 284,
+                "pos": {
+                    "x": -25278.798974324352,
+                    "y": 20969.631087161877
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 30,
+                "area": 438,
+                "pos": {
+                    "x": -20692.03674432436,
+                    "y": 22725.456457162552
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 31,
+                "area": 376,
+                "pos": {
+                    "x": -6298.468604324371,
+                    "y": -26752.14175283695
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 32,
+                "area": 164,
+                "pos": {
+                    "x": 5101.830125675668,
+                    "y": 19259.171037162
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 33,
+                "area": 215,
+                "pos": {
+                    "x": 4620.543155675652,
+                    "y": -375.6695728373739
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 34,
+                "area": 374,
+                "pos": {
+                    "x": -17394.05272432427,
+                    "y": 7779.360427161955
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 35,
+                "area": 315,
+                "pos": {
+                    "x": 17886.25820567565,
+                    "y": -3409.9171728377255
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 36,
+                "area": 438,
+                "pos": {
+                    "x": 23657.41378567567,
+                    "y": 6419.115657162198
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 37,
+                "area": 376,
+                "pos": {
+                    "x": -2418.379244324271,
+                    "y": -25318.172712838
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 38,
+                "area": 523,
+                "pos": {
+                    "x": 14260.9443056757,
+                    "y": 19487.882237162718
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 39,
+                "area": 367,
+                "pos": {
+                    "x": -19792.818574324352,
+                    "y": 14482.270257162207
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 40,
+                "area": 400,
+                "pos": {
+                    "x": 21080.875755675617,
+                    "y": -14515.397652838103
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 41,
+                "area": 326,
+                "pos": {
+                    "x": -14912.84521432429,
+                    "y": -8015.649472837991
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 42,
+                "area": 430,
+                "pos": {
+                    "x": 18471.629065675676,
+                    "y": -8694.144702838457
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 43,
+                "area": 802,
+                "pos": {
+                    "x": -2935.7764443242777,
+                    "y": -13495.225322838596
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 44,
+                "area": 398,
+                "pos": {
+                    "x": -11664.293214324382,
+                    "y": -25519.37478283765
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 45,
+                "area": 2366,
+                "pos": {
+                    "x": 18258.85989567569,
+                    "y": -6011.647052837259
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 46,
+                "area": 385,
+                "pos": {
+                    "x": 1802.0401856756216,
+                    "y": 9621.112457162046
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 47,
+                "area": 307,
+                "pos": {
+                    "x": 13192.105355675696,
+                    "y": -3790.2810128384294
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 48,
+                "area": 612,
+                "pos": {
+                    "x": -24030.835454324362,
+                    "y": 13191.445677161493
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 49,
+                "area": 598,
+                "pos": {
+                    "x": 20530.060715675718,
+                    "y": 10145.08066716259
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 50,
+                "area": 415,
+                "pos": {
+                    "x": -19142.63254432437,
+                    "y": 23543.756857162618
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 51,
+                "area": 334,
+                "pos": {
+                    "x": -7216.370194324278,
+                    "y": -1077.629802837691
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 52,
+                "area": 491,
+                "pos": {
+                    "x": -11067.711614324347,
+                    "y": -4401.280652837551
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 53,
+                "area": 358,
+                "pos": {
+                    "x": -20177.67003432427,
+                    "y": -7969.8592428376
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 54,
+                "area": 523,
+                "pos": {
+                    "x": 28112.97027567566,
+                    "y": 2501.0266371614275
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 55,
+                "area": 367,
+                "pos": {
+                    "x": 12280.414765675683,
+                    "y": 4813.348267162495
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 56,
+                "area": 308,
+                "pos": {
+                    "x": -4751.703024324364,
+                    "y": 15242.223117161819
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 57,
+                "area": 321,
+                "pos": {
+                    "x": 14192.463505675682,
+                    "y": 2375.1734871624944
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 58,
+                "area": 249,
+                "pos": {
+                    "x": -20848.38109432427,
+                    "y": -19715.26818283806
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 59,
+                "area": 294,
+                "pos": {
+                    "x": -22638.451634324374,
+                    "y": -12579.030802838228
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 60,
+                "area": 257,
+                "pos": {
+                    "x": -8713.75164432438,
+                    "y": 28501.534037161895
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 61,
+                "area": 464,
+                "pos": {
+                    "x": 11224.575995675652,
+                    "y": 17187.60803716285
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 62,
+                "area": 610,
+                "pos": {
+                    "x": -25604.152584324343,
+                    "y": -25028.064612837232
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 63,
+                "area": 336,
+                "pos": {
+                    "x": 247.37471567573084,
+                    "y": 26171.11626716172
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 64,
+                "area": 681,
+                "pos": {
+                    "x": 8979.870295675719,
+                    "y": -17274.009062837533
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 65,
+                "area": 155,
+                "pos": {
+                    "x": 16583.754145675703,
+                    "y": -20873.531042838193
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 66,
+                "area": 308,
+                "pos": {
+                    "x": -25884.760654324302,
+                    "y": 3030.303707162195
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 67,
+                "area": 337,
+                "pos": {
+                    "x": -18276.069264324367,
+                    "y": -12975.976112838558
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 68,
+                "area": 195,
+                "pos": {
+                    "x": -13259.389944324372,
+                    "y": 9448.88420716142
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 69,
+                "area": 341,
+                "pos": {
+                    "x": 17574.600275675664,
+                    "y": -38219.45503283823
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 70,
+                "area": 602,
+                "pos": {
+                    "x": 8029.08434567567,
+                    "y": 5895.532367162683
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 71,
+                "area": 302,
+                "pos": {
+                    "x": 24227.27760567564,
+                    "y": -12145.60328283692
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 72,
+                "area": 200,
+                "pos": {
+                    "x": -15377.545554324272,
+                    "y": -27850.25246283757
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 73,
+                "area": 238,
+                "pos": {
+                    "x": -14410.0562143243,
+                    "y": -13083.578152836955
+                },
+                "is_occupied": false,
+                "localPatches": []
+            }
+        ],
+        "colonisationEvents": 0,
+        "extinctionEvents": 0,
+        "numberColonised": 9
+    }
+}
