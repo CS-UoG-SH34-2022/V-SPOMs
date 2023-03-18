@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "npm run deploy_backend && npm run deploy_frontend",
+    "deploy_backend": "cd ./backend && npm i && npm run deploy && cd ..",
+    "deploy_frontend": "cd ./v-spoms && npm run build && cd ..",
+    "dev": "cd ./v-spoms && npm run dev && cd ..",
+    "host": "cd ./v-spoms && npm run host && cd ..",
+    "bdev": "npm run build && npm run dev",
+    "test_backend": "cd ./backend && jest",
+    "hard_reset": "rm -fr backend/ v-spoms/ && git restore ."
+  }
+}

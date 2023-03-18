@@ -1,0 +1,35 @@
+#zoomBox{
+    bottom: 13rem;
+    left: 1rem;
+}
+
+#iterDisplay{
+    left: 16rem;
+}
+
+@media screen and (min-width: 1801px) {
+    #zoomBox{
+        bottom: 17rem;
+        left: 1rem;
+    }
+    #iterDisplay{
+        bottom: 15rem;
+        left: 25rem;
+    }
+}
+
+#Graph{
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.subGraph{
+    position: relative;
+}
+
+.subGraph > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%,-60%);
+}
