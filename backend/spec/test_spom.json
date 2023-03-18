@@ -1,0 +1,969 @@
+{
+    "meta": {
+        "name": "Diamina",
+        "description": ""
+    },
+    "engine": {
+        "meta": {
+            "name": "Default Diamina SPOM Engine",
+            "description": "The Default Diamina SPOM Engine"
+        },
+        "simulationType": "Iterator",
+        "dispersalFunction": {"alpha": 0.5,"beta":1,"type":"Hanski1999"},
+        "connectivityFunction": {"b": 1,"type": "MolianenA2004"},
+        "colonizationFunction": {"y":5.22,"type":"HanskiA1994"},
+        "intrinsicExtinctionFunction": {"e":90,"x":1,"type":"Hanski2002"},
+        "correlatedExtinctionFunction": {"c":0}
+    },
+    "network":{
+        "meta": {
+            "name": "Default Network",
+            "description": ""
+        },
+        "patches": [
+            {
+                "id": 0,
+                "area": 0.005,
+                "pos": {
+                    "x": 3334.04,
+                    "y": 6838.97
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 1,
+                "area": 0.007,
+                "pos": {
+                    "x": 3340.66,
+                    "y": 6841.37
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 2,
+                "area": 0.01,
+                "pos": {
+                    "x": 3337.25,
+                    "y": 6839.35
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 3,
+                "area": 0.012,
+                "pos": {
+                    "x": 3340.65,
+                    "y": 6841.07
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 4,
+                "area": 0.013,
+                "pos": {
+                    "x": 3357.21,
+                    "y": 6832.12
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 5,
+                "area": 0.015,
+                "pos": {
+                    "x": 3352.05,
+                    "y": 6837.77
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 6,
+                "area": 0.02,
+                "pos": {
+                    "x": 3353.59,
+                    "y": 6837.1
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 7,
+                "area": 0.02,
+                "pos": {
+                    "x": 3353.49,
+                    "y": 6837.24
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 8,
+                "area": 0.03,
+                "pos": {
+                    "x": 3334.9,
+                    "y": 6832.48
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 9,
+                "area": 0.03,
+                "pos": {
+                    "x": 3333.88,
+                    "y": 6830.24
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 10,
+                "area": 0.03,
+                "pos": {
+                    "x": 3343.29,
+                    "y": 6824.48
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 11,
+                "area": 0.04,
+                "pos": {
+                    "x": 3337.68,
+                    "y": 6831.61
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 12,
+                "area": 0.045,
+                "pos": {
+                    "x": 3337.3,
+                    "y": 6829.78
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 13,
+                "area": 0.05,
+                "pos": {
+                    "x": 3332.24,
+                    "y": 6834.66
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 14,
+                "area": 0.05,
+                "pos": {
+                    "x": 3337.88,
+                    "y": 6831.52
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 15,
+                "area": 0.05,
+                "pos": {
+                    "x": 3341.13,
+                    "y": 6827.21
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 16,
+                "area": 0.05,
+                "pos": {
+                    "x": 3354.22,
+                    "y": 6834.94
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 17,
+                "area": 0.05,
+                "pos": {
+                    "x": 3333.29,
+                    "y": 6841.76
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 18,
+                "area": 0.055,
+                "pos": {
+                    "x": 3332.98,
+                    "y": 6829.28
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 19,
+                "area": 0.06,
+                "pos": {
+                    "x": 3335.35,
+                    "y": 6832.55
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 20,
+                "area": 0.06,
+                "pos": {
+                    "x": 3339.56,
+                    "y": 6832.65
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 21,
+                "area": 0.06,
+                "pos": {
+                    "x": 3357.28,
+                    "y": 6839.26
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 22,
+                "area": 0.07,
+                "pos": {
+                    "x": 3333.9,
+                    "y": 6830.14
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 23,
+                "area": 0.07,
+                "pos": {
+                    "x": 3342.03,
+                    "y": 6826.96
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 24,
+                "area": 0.08,
+                "pos": {
+                    "x": 3336.56,
+                    "y": 6839.56
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 25,
+                "area": 0.08,
+                "pos": {
+                    "x": 3353,
+                    "y": 6836.39
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 26,
+                "area": 0.1,
+                "pos": {
+                    "x": 3333.53,
+                    "y": 6829.44
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 27,
+                "area": 0.1,
+                "pos": {
+                    "x": 3339.18,
+                    "y": 6831.5
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 28,
+                "area": 0.1,
+                "pos": {
+                    "x": 3346.95,
+                    "y": 6840.77
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 29,
+                "area": 0.1,
+                "pos": {
+                    "x": 3342.25,
+                    "y": 6827.78
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 30,
+                "area": 0.1,
+                "pos": {
+                    "x": 3353.24,
+                    "y": 6837.45
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 31,
+                "area": 0.12,
+                "pos": {
+                    "x": 3337.37,
+                    "y": 6831.68
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 32,
+                "area": 0.12,
+                "pos": {
+                    "x": 3353.17,
+                    "y": 6836.46
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 33,
+                "area": 0.12,
+                "pos": {
+                    "x": 3333.21,
+                    "y": 6844.77
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 34,
+                "area": 0.13,
+                "pos": {
+                    "x": 3333.14,
+                    "y": 6833.66
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 35,
+                "area": 0.13,
+                "pos": {
+                    "x": 3352.75,
+                    "y": 6836.34
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 36,
+                "area": 0.15,
+                "pos": {
+                    "x": 3334.16,
+                    "y": 6839.14
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 37,
+                "area": 0.15,
+                "pos": {
+                    "x": 3331.52,
+                    "y": 6833.08
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 38,
+                "area": 0.15,
+                "pos": {
+                    "x": 3334,
+                    "y": 6830.53
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 39,
+                "area": 0.15,
+                "pos": {
+                    "x": 3334.72,
+                    "y": 6830.6
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 40,
+                "area": 0.15,
+                "pos": {
+                    "x": 3356.95,
+                    "y": 6832.28
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 41,
+                "area": 0.15,
+                "pos": {
+                    "x": 3330.79,
+                    "y": 6840.83
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 42,
+                "area": 0.17,
+                "pos": {
+                    "x": 3352.98,
+                    "y": 6837.72
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 43,
+                "area": 0.2,
+                "pos": {
+                    "x": 3333.24,
+                    "y": 6831.22
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 44,
+                "area": 0.2,
+                "pos": {
+                    "x": 3339.2,
+                    "y": 6831.14
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 45,
+                "area": 0.2,
+                "pos": {
+                    "x": 3341.98,
+                    "y": 6826.7
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 46,
+                "area": 0.2,
+                "pos": {
+                    "x": 3357.68,
+                    "y": 6835.93
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 47,
+                "area": 0.21,
+                "pos": {
+                    "x": 3355.72,
+                    "y": 6838.05
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 48,
+                "area": 0.22,
+                "pos": {
+                    "x": 3355.95,
+                    "y": 6832.73
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 49,
+                "area": 0.24,
+                "pos": {
+                    "x": 3335.88,
+                    "y": 6838.95
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 50,
+                "area": 0.24,
+                "pos": {
+                    "x": 3349.9,
+                    "y": 6833.15
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 51,
+                "area": 0.24,
+                "pos": {
+                    "x": 3353.09,
+                    "y": 6837.94
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 52,
+                "area": 0.25,
+                "pos": {
+                    "x": 3333.98,
+                    "y": 6830.34
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 53,
+                "area": 0.26,
+                "pos": {
+                    "x": 3357.27,
+                    "y": 6832.3
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 54,
+                "area": 0.3,
+                "pos": {
+                    "x": 3342.23,
+                    "y": 6841.5
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 55,
+                "area": 0.3,
+                "pos": {
+                    "x": 3331.58,
+                    "y": 6834.36
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 56,
+                "area": 0.35,
+                "pos": {
+                    "x": 3338.03,
+                    "y": 6839.64
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 57,
+                "area": 0.4,
+                "pos": {
+                    "x": 3344.75,
+                    "y": 6841.95
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 58,
+                "area": 0.5,
+                "pos": {
+                    "x": 3333.5,
+                    "y": 6829.9
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 59,
+                "area": 0.5,
+                "pos": {
+                    "x": 3346.35,
+                    "y": 6842
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 60,
+                "area": 0.5,
+                "pos": {
+                    "x": 3352.38,
+                    "y": 6836.92
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 61,
+                "area": 0.5,
+                "pos": {
+                    "x": 3352.71,
+                    "y": 6838.09
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 62,
+                "area": 0.56,
+                "pos": {
+                    "x": 3340.78,
+                    "y": 6841
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 63,
+                "area": 0.6,
+                "pos": {
+                    "x": 3333.72,
+                    "y": 6837.68
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 64,
+                "area": 0.6,
+                "pos": {
+                    "x": 3352.03,
+                    "y": 6837.66
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 65,
+                "area": 0.64,
+                "pos": {
+                    "x": 3352.3,
+                    "y": 6837.81
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 66,
+                "area": 0.7,
+                "pos": {
+                    "x": 3353.71,
+                    "y": 6837.25
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 67,
+                "area": 0.72,
+                "pos": {
+                    "x": 3352.26,
+                    "y": 6833.29
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 68,
+                "area": 0.72,
+                "pos": {
+                    "x": 3357.58,
+                    "y": 6832.6
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 69,
+                "area": 0.8,
+                "pos": {
+                    "x": 3337.22,
+                    "y": 6842.22
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 70,
+                "area": 0.9,
+                "pos": {
+                    "x": 3336,
+                    "y": 6838.83
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 71,
+                "area": 0.9,
+                "pos": {
+                    "x": 3337.21,
+                    "y": 6829.95
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 72,
+                "area": 0.9,
+                "pos": {
+                    "x": 3338.94,
+                    "y": 6832.3
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 73,
+                "area": 1,
+                "pos": {
+                    "x": 3340.41,
+                    "y": 6840.94
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 74,
+                "area": 1,
+                "pos": {
+                    "x": 3335.33,
+                    "y": 6843.85
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 75,
+                "area": 1.04,
+                "pos": {
+                    "x": 3348,
+                    "y": 6841.56
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 76,
+                "area": 1.2,
+                "pos": {
+                    "x": 3352.55,
+                    "y": 6837.93
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 77,
+                "area": 1.2,
+                "pos": {
+                    "x": 3357.07,
+                    "y": 6833
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 78,
+                "area": 1.2,
+                "pos": {
+                    "x": 3351.84,
+                    "y": 6841
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 79,
+                "area": 1.4,
+                "pos": {
+                    "x": 3343.2,
+                    "y": 6824.6
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 80,
+                "area": 1.6,
+                "pos": {
+                    "x": 3338.5,
+                    "y": 6831.7
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 81,
+                "area": 1.6,
+                "pos": {
+                    "x": 3330.13,
+                    "y": 6837.33
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 82,
+                "area": 1.7,
+                "pos": {
+                    "x": 3332.71,
+                    "y": 6836.4
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 83,
+                "area": 1.7,
+                "pos": {
+                    "x": 3352.95,
+                    "y": 6837.5
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 84,
+                "area": 1.82,
+                "pos": {
+                    "x": 3329.51,
+                    "y": 6839.86
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 85,
+                "area": 2,
+                "pos": {
+                    "x": 3340.93,
+                    "y": 6841.35
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 86,
+                "area": 2.1,
+                "pos": {
+                    "x": 3335.49,
+                    "y": 6831.93
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 87,
+                "area": 2.24,
+                "pos": {
+                    "x": 3351.95,
+                    "y": 6837.94
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 88,
+                "area": 2.28,
+                "pos": {
+                    "x": 3353.12,
+                    "y": 6838.3
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 89,
+                "area": 2.4,
+                "pos": {
+                    "x": 3332.61,
+                    "y": 6833.61
+                },
+                "is_occupied": false,
+                "localPatches": []
+            },
+            {
+                "id": 90,
+                "area": 3,
+                "pos": {
+                    "x": 3336.53,
+                    "y": 6845.22
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 91,
+                "area": 3.6,
+                "pos": {
+                    "x": 3335.18,
+                    "y": 6830.94
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 92,
+                "area": 3.7,
+                "pos": {
+                    "x": 3333.75,
+                    "y": 6842.37
+                },
+                "is_occupied": true,
+                "localPatches": []
+            },
+            {
+                "id": 93,
+                "area": 4,
+                "pos": {
+                    "x": 3342,
+                    "y": 6835.85
+                },
+                "is_occupied": false,
+                "localPatches": []
+            }
+        ],
+        "colonisationEvents": 0,
+        "extinctionEvents": 0,
+        "numberColonised": 0
+    }
+}

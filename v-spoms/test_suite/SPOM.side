@@ -1,0 +1,517 @@
+{
+  "id": "1d5d60bb-aa8c-4f82-a183-fd174912312a",
+  "version": "2.0",
+  "name": "SPOM",
+  "url": "http://localhost:5174",
+  "tests": [{
+    "id": "05d2a3de-0e08-401f-aed3-646be3449f17",
+    "name": "Untitled",
+    "commands": [{
+      "id": "d65034d9-afdb-45ac-92b4-dcc7da6bab66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61037624-dc1d-47d3-ba36-1b7df41f03a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3A",
+      "targets": [
+        ["css=.hover\\3A", "css:finder"],
+        ["xpath=//div[@id='root']/div[2]/section/div/div/div[2]/div/form/label/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Upload Scenario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c72376b-966a-4e23-8efa-8e86fe8b61e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "65cf7298-3a22-44b8-ad2a-25b884d7f8fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9cc4ac-a2ed-4e4e-bdd0-4a7f6748ae9e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3c9799-9ceb-4649-9567-03f47d93cc12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0498241-7bcd-42cb-8862-cafc4e62595d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "899bd345-595d-487d-bb93-0fbde26841e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6587c6d9-c23d-4fae-a4ea-554309f0ca03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "425dd4a5-f476-47aa-8d12-916da20199a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1141ad98-9c14-4576-962f-f9315635a520",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7e07f8c-7417-441c-8ed5-6d977ea13dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b06eb64-3f36-4603-9bad-cc2bd4e3aecf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1acdd69a-245b-4ada-8f15-cfaf2860a84d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c372622-b28a-469c-a455-889b231f233f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb3df05-a0a6-44d5-b323-e5192452bfdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2609b0b-7d28-4cb6-afa8-1926e097d8c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd41ba3b-1580-46c6-8977-2500d20fe90b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8231dbac-95dd-4283-9f59-9aa16ebae3cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2f6fc22-5f9b-4d3e-9472-6264dd82945a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b7ca1f3-87f3-4787-aab2-9a99d9e053ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d94cf9-45db-43ef-96ed-ccadb6bcc140",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2cbb108-c313-42ba-bc80-ef7ac7b16034",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef53a3e6-29aa-4f42-9812-8603268ac784",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9445bb3b-b31c-44c1-b131-40122114d684",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8fd5b5c-dfea-4693-b512-d8bdac5b808e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "70cfcdc4-9d61-4cee-a8d2-8563fe4040e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af3e54d3-8f98-434f-85bd-4ddef95255c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21dcf5d-3cf2-4103-8f97-a90b53881cfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ed7af18-76fc-4e0e-b3f0-bb56db3e946c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ace955d0-cc95-4485-af2f-64fd13d22398",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "10aa0519-2281-40e0-bc1f-e98e8ff9ab73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc67c2e-f967-4ab1-bccf-b0692d42d75f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e35225c-9769-459c-ad00-ad7219fbfc5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(1) > svg",
+      "targets": [
+        ["css=.tooltip:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "17653111-f73f-4995-975e-418d532386f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer:nth-child(5) path",
+      "targets": [
+        ["css=.cursor-pointer:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a17266-bdbe-49f6-b62e-586d9c9079e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb1f8d4f-997f-4cce-acb5-0d21d672dc66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e702d4f-9c6a-4ccd-93ea-86f9f5a716f3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfca0341-6549-498b-967c-b463e69ae954",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e82fbe96-106e-49e6-ad46-650ca992e10c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f94b2cc-23c0-41f9-a057-7d2b481c3bae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28ade74-30ff-45fa-8030-deb60cd4636c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "081255d9-af39-40c9-9bd7-bca2ef084d6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "34586590-3ee1-4ce0-b159-1480df04d893",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "886caf82-fab5-48be-a177-588206b05981",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b89ac43-c3d1-496a-90bc-bb8b92f47ab3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f4a56d-37cc-4f6a-bea5-0ef09e1db8a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff1cf4e-482c-47bf-aab2-233422124641",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f355f15-dd7f-4654-b01e-6185be981cc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d4b9ef-b4a0-4961-98fc-a97941ad4ed3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tooltip:nth-child(2) path",
+      "targets": [
+        ["css=.tooltip:nth-child(2) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f92644-e7d6-4511-a18c-486a1d6fe2d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer:nth-child(4) path",
+      "targets": [
+        ["css=.cursor-pointer:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "235c307e-7057-434e-9504-f8f3faa87099",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.cursor-pointer:nth-child(4) path",
+      "targets": [
+        ["css=.cursor-pointer:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "67496348-9128-401b-bb24-143cd09b1734",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer:nth-child(4) path",
+      "targets": [
+        ["css=.cursor-pointer:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1aed3b6-022d-43d0-a2e5-d5ba9eb87a39",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer:nth-child(3) > svg",
+      "targets": [
+        ["css=.cursor-pointer:nth-child(3) > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28ef4e8-23f5-4020-9cbb-336397dd94f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > .cursor-pointer:nth-child(1) > svg",
+      "targets": [
+        ["css=.absolute > .cursor-pointer:nth-child(1) > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc85eea5-912e-4ca1-87d0-671b703a66ac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05d2a3de-0e08-401f-aed3-646be3449f17"]
+  }],
+  "urls": ["http://localhost:5174/"],
+  "plugins": []
+}
