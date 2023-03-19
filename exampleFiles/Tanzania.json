@@ -34,7 +34,7 @@
     "network": {
         "meta": {
             "name": "Tanzania Network",
-            "description": ""
+            "description": "This is an example network."
         },
         "patches": [
             {
