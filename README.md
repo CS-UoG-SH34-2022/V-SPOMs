@@ -46,7 +46,7 @@ It is crucial for understanding the relationships between species, habitats, and
 ### Full stack Developers
 *  [Kris Raviphas](https://www.linkedin.com/in/kris-raviphas/)
 *  [Paulius Jankauskas](#)
-*  [James Nurdin](#)
+*  [James Nurdin](https://www.linkedin.com/in/james-nurdin-596962190)
 ### Front end Developers
 * [Tianrun Zhao](#)
 * [Emma Zhang](#)
@@ -59,7 +59,7 @@ It is crucial for understanding the relationships between species, habitats, and
 ### DevOps Engineer
 * [Paulius Jankauskas](#)
 ### Testers
-* [James Nurdin](#)
+* [James Nurdin](https://www.linkedin.com/in/james-nurdin-596962190)
 
 # License
 [GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
