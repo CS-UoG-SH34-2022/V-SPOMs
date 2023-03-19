@@ -5,7 +5,7 @@ import {
   AiOutlineMinusSquare,
   AiOutlinePause,
   AiOutlinePlusSquare,
-  AiOutlineSetting
+  AiOutlineSetting,
 } from "react-icons/ai";
 import { BsFillCaretRightFill, BsFillSkipForwardFill } from "react-icons/bs";
 import { IoMdRefresh } from "react-icons/io";
@@ -26,15 +26,27 @@ const Action = () => {
   const spomOptions: IBackendSPOMOptions = location.state.spomOptions;
 
   // Here is just a demo of Graph Data
-  const [OccupiedAreaGraphData, setOccupiedAreaGraphData] = useState<number[][]>([[]]);
-  const [OccupiedPatchesGraphData, setOccupiedPatchesGraphData] = useState<number[][]>([[]]);
-  const [TurnoverEventsGraphData, setTurnoverEventsGraphData] = useState<number[][]>([[]]);
-  const [ReplicateSurvivalGraphData, setReplicateSurvivalGraphData] = useState<number[][]>([[]]);
+  const [OccupiedAreaGraphData, setOccupiedAreaGraphData] = useState<
+    number[][]
+  >([[]]);
+  const [OccupiedPatchesGraphData, setOccupiedPatchesGraphData] = useState<
+    number[][]
+  >([[]]);
+  const [TurnoverEventsGraphData, setTurnoverEventsGraphData] = useState<
+    number[][]
+  >([[]]);
+  const [ReplicateSurvivalGraphData, setReplicateSurvivalGraphData] = useState<
+    number[][]
+  >([[]]);
 
-  const [MeanOccupiedAreaGraphData, setMeanOccupiedAreaGraphData] = useState<number[]>([]);
-  const [MeanOccupiedPatchesGraphData, setMeanOccupiedPatchesGraphData] = useState<number[]>([]);
-  const [MeanTurnoverEventsGraphData, setMeanTurnoverEventsGraphData] = useState<number[]>([]);
-  const [activeDropDown, setActiveDropDown] = useState<string>("")
+  const [MeanOccupiedAreaGraphData, setMeanOccupiedAreaGraphData] = useState<
+    number[]
+  >([]);
+  const [MeanOccupiedPatchesGraphData, setMeanOccupiedPatchesGraphData] =
+    useState<number[]>([]);
+  const [MeanTurnoverEventsGraphData, setMeanTurnoverEventsGraphData] =
+    useState<number[]>([]);
+  const [activeDropDown, setActiveDropDown] = useState<string>("");
   const [spom, setSpom] = useState<SPOM>(() => {
     return createSPOM(spomOptions);
   }); // This must be an arrow function, otherwise spom is recreated on each update. why?.
@@ -42,7 +54,6 @@ const Action = () => {
     spom.startingNetwork.patches
   );
   const [patchId, setPatchID] = useState<number | undefined>(undefined); // record current patch ref, can use current to get the state without the page refresh
-  //const [patchesData, setPatchesData] = useState(data); we won't need to change the spomOptions so we don't need to create a state from it.
   // record the current patch
 
   // Get zoom based on maximum distance between patches - so all patches fit into the screen
@@ -81,10 +92,6 @@ const Action = () => {
   useEffect(() => {
     spom.engine.simulation.endTime = inputValueSimulationEnd;
   }, [inputValueSimulationEnd]);
-
-  //useEffect(() => {
-  //  spom.engine.simulation.endTime = inputValueSimulationEnd;
-  //}, [inputValueReplicas]);
 
   const handleUpdate = () => {
     setIterationValue(0);
@@ -154,7 +161,7 @@ const Action = () => {
 
   const handleSimulate = () => {
     handleAnimateStop();
-    spom.simulate(inputValueReplicas, inputValueSimulationEnd+1);
+    spom.simulate(inputValueReplicas, inputValueSimulationEnd + 1);
     spom.simulationSnapshots = spom.replicates[0].simulationSnapshots;
     setIterationValue(0);
   };
@@ -162,7 +169,7 @@ const Action = () => {
   // Add callback on iterationValue state change
   useEffect(() => {
     handle_iteration_update();
-  }, [iterationValue,inputValueSimulationEnd,inputValueReplicas]);
+  }, [iterationValue, inputValueSimulationEnd, inputValueReplicas]);
 
   const handleGraphUpdate = () => {
     if (iterationValue != undefined) {
@@ -190,10 +197,9 @@ const Action = () => {
         for (let j = 0; j < stat.length; j++) {
           stat[j] = stat[j] * 100;
         }
-        replicate_result.push(stat)
-        replicate_results.push(replicate_result)
+        replicate_result.push(stat);
+        replicate_results.push(replicate_result);
       }
-
 
       setOccupiedAreaGraphData(stats_results[0]);
       setOccupiedPatchesGraphData(stats_results[1]);
@@ -204,13 +210,13 @@ const Action = () => {
       for (let i = 0; i < spom.meanStats.length; i++) {
         const mean_sliced_stat_data = spom.meanStats[i].slice(
           0,
-          iterationValue + 1);
+          iterationValue + 1
+        );
         mean_stats_results.push(mean_sliced_stat_data);
       }
       setMeanOccupiedAreaGraphData(mean_stats_results[0]);
       setMeanOccupiedPatchesGraphData(mean_stats_results[1]);
       setMeanTurnoverEventsGraphData(mean_stats_results[2]);
-
     }
   };
 
@@ -234,17 +240,20 @@ const Action = () => {
   };
 
   const handleSkip = () => {
-    setIterationValue(spom.engine.simulation.endTime-1);
+    setIterationValue(spom.engine.simulation.endTime - 1);
     handleAnimateStop();
   };
 
   const handleForwards = () => {
-    if(spom.simulationSnapshots == undefined || spom.simulationSnapshots?.length == 0){
+    if (
+      spom.simulationSnapshots == undefined ||
+      spom.simulationSnapshots?.length == 0
+    ) {
       return;
     }
     if (iterationValue != undefined) {
       let new_value = Math.min(
-        spom.simulationSnapshots.length-1,
+        spom.simulationSnapshots.length - 1,
         iterationValue + 1
       );
       setIterationValue(new_value);
@@ -329,34 +338,45 @@ const Action = () => {
   }
 
   const handleSave = () => {
-    const ta = document.getElementById("descriptionTextArea") as HTMLTextAreaElement;
-    const networkNameInput = document.getElementById("networkNameInput") as HTMLInputElement;
+    const ta = document.getElementById(
+      "descriptionTextArea"
+    ) as HTMLTextAreaElement;
+    const networkNameInput = document.getElementById(
+      "networkNameInput"
+    ) as HTMLInputElement;
     spom.startingNetwork.setDescription(ta.value);
     spom.startingNetwork.setNetworkName(networkNameInput.value);
     setSaveActive(false);
-  }
+  };
 
   const checkSavable = () => {
-    const ta = document.getElementById("descriptionTextArea") as HTMLTextAreaElement;
-    const networkNameInput = document.getElementById("networkNameInput") as HTMLInputElement;
-    setSaveActive(ta.value !== ta.defaultValue || networkNameInput.value !== networkNameInput.defaultValue);
-  }
+    const ta = document.getElementById(
+      "descriptionTextArea"
+    ) as HTMLTextAreaElement;
+    const networkNameInput = document.getElementById(
+      "networkNameInput"
+    ) as HTMLInputElement;
+    setSaveActive(
+      ta.value !== ta.defaultValue ||
+        networkNameInput.value !== networkNameInput.defaultValue
+    );
+  };
 
-  const handleIterationValue = (num:number) => {
-    setInputValueSimulationEnd(num)
+  const handleIterationValue = (num: number) => {
+    setInputValueSimulationEnd(num);
     // spom.simulate(inputValueReplicas, Number(event.target.value));
     spom.simulationSnapshots = spom.replicates[0].simulationSnapshots;
-    if(num < iterationValue){
-      setIterationValue(num)
+    if (num < iterationValue) {
+      setIterationValue(num);
     }
     handle_iteration_update();
-  }
+  };
 
-  const handleReplicas = (num:number) => {
-    setInputValueReplicas(num)
+  const handleReplicas = (num: number) => {
+    setInputValueReplicas(num);
     // spom.simulate(Number(event.target.value), inputValueSimulationEnd);
     spom.simulationSnapshots = spom.replicates[0].simulationSnapshots;
-  }
+  };
 
   const w = 300;
   const h = 200;
@@ -601,9 +621,13 @@ const Action = () => {
                 <input
                   type="number"
                   min={0}
-                  className={`w-32 border-2 border-black bg-white h-6 ${animationIsRunning? "bg-gray-100 text-gray-300": ""}`}
+                  className={`w-32 border-2 border-black bg-white h-6 ${
+                    animationIsRunning ? "bg-gray-100 text-gray-300" : ""
+                  }`}
                   value={inputValueSimulationEnd}
-                  onChange={(event) => handleIterationValue(Number(event.target.value))}
+                  onChange={(event) =>
+                    handleIterationValue(Number(event.target.value))
+                  }
                   disabled={animationIsRunning}
                 />
               </div>
@@ -615,9 +639,13 @@ const Action = () => {
                 <input
                   type="number"
                   min={1}
-                  className={`w-32 border-2 border-black h-6 bg-white ${animationIsRunning? "bg-gray-100 text-gray-300": ""}`}
+                  className={`w-32 border-2 border-black h-6 bg-white ${
+                    animationIsRunning ? "bg-gray-100 text-gray-300" : ""
+                  }`}
                   value={inputValueReplicas}
-                  onChange={(event) => handleReplicas(Number(event.target.value))}
+                  onChange={(event) =>
+                    handleReplicas(Number(event.target.value))
+                  }
                   disabled={animationIsRunning}
                 />
               </div>

@@ -13,13 +13,18 @@ const FAQ = () => {
         </h1>
         <p>You will find most answers here.</p>
         <p className="pb-3">
-          However, if you can't them then we recommand you contact the GitHub page&nbsp;
-          <a href="https://github.com/CS-UOG-SH34-2022/V-Spoms"
+          However, if you can't them then we recommand you contact the GitHub
+          page&nbsp;
+          <a
+            href="https://github.com/CS-UOG-SH34-2022/V-Spoms"
             target="_blank"
             rel="noopener"
           >
-            <u><i>here</i></u>
-          </a>.
+            <u>
+              <i>here</i>
+            </u>
+          </a>
+          .
         </p>
         <div className="relative flex items-center">
           <div className="absolute ml-3">
@@ -29,7 +34,9 @@ const FAQ = () => {
             placeholder="search..."
             type="text"
             className="pl-10 rounded-3xl w-2/5 h-10 border-black border-2 outline-none bg-white"
-            onChange={(e: { target: { value: any; }; }) => setSearchText(e.target.value)}
+            onChange={(e: { target: { value: any } }) =>
+              setSearchText(e.target.value)
+            }
           />
         </div>
       </div>
