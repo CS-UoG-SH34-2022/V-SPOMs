@@ -19,7 +19,7 @@ It is crucial for understanding the relationships between species, habitats, and
 ### SPOMs is simple, but **hard** to understand!
 * The core idea of SPOMs is simple. However, it is difficult to understand when only using text and math equations.
 * Our customer works as a professor at the University of Glasgow. 
-* Thus, He wants a software program that can visualize SPOMs to make understanding easier for the students he taught.
+* Thus, he wants a software program that can visualize SPOMs to make understanding easier for the students he taught.
 ### Problems with SPOMsim
 * SPOMsim is also a program that visualize SPOMs.
 * However, there are three main issue with the program.
