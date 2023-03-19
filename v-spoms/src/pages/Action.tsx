@@ -418,7 +418,7 @@ const Action = () => {
             title="Proportion of occupied area"
             width={w}
             height={h}
-            x_label="Time (years)"
+            x_label="Time "
             y_label="pA"
             x_range={[0, inputValueSimulationEnd]}
             y_range={[0, 100]}
@@ -431,7 +431,7 @@ const Action = () => {
             title="Proportion of occupied patches"
             width={w}
             height={h}
-            x_label="Time (years)"
+            x_label="Time "
             y_label="p"
             x_range={[0, inputValueSimulationEnd]}
             y_range={[0, 100]}
@@ -444,7 +444,7 @@ const Action = () => {
             title="Proportion of surviving replicates"
             width={w}
             height={h}
-            x_label="Time (years)"
+            x_label="Time "
             y_label="p"
             x_range={[0, inputValueSimulationEnd]}
             y_range={[0, 100]}
@@ -456,7 +456,7 @@ const Action = () => {
             title="Turnover events"
             width={w}
             height={h}
-            x_label="Time (years)"
+            x_label="Time "
             y_label="p"
             x_range={[0, inputValueSimulationEnd]}
             y_range={[0, spom.networkStats[2].max]}
