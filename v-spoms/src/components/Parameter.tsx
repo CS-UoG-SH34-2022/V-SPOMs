@@ -56,17 +56,21 @@ const Parameter: React.FC<ParameterProps> = (props: ParameterProps) => {
   };
 
   const [allowEdit, setAllowEdit] = useState<boolean>(false);
-  const [stateValue, setStateValue] = useState<number>(PARAMETER_LOOKUP_TABLE[props.functionType][props.parameterType]);
-  const [currentValue, setCurrentValue] = useState<number>(PARAMETER_LOOKUP_TABLE[props.functionType][props.parameterType]);
+  const [stateValue, setStateValue] = useState<number>(
+    PARAMETER_LOOKUP_TABLE[props.functionType][props.parameterType]
+  );
+  const [currentValue, setCurrentValue] = useState<number>(
+    PARAMETER_LOOKUP_TABLE[props.functionType][props.parameterType]
+  );
   const [ParameterIsValid, setParameterIsValid] = useState<boolean>(true);
 
   const handleParameterChange = (value: number) => {
     setStateValue(value);
-    checkParameterIsValid(value)
+    checkParameterIsValid(value);
     setAllowEdit(value !== currentValue);
   };
 
-  const checkParameterIsValid = (value: number) =>{
+  const checkParameterIsValid = (value: number) => {
     let parameterValid = true;
     if (props.lowerBound !== undefined && value < props.lowerBound) {
       parameterValid = false;
@@ -77,7 +81,7 @@ const Parameter: React.FC<ParameterProps> = (props: ParameterProps) => {
       setAllowEdit(true);
     }
     setParameterIsValid(parameterValid);
-  }
+  };
 
   const handleUpdateParameter = (value: number) => {
     checkParameterIsValid(value);

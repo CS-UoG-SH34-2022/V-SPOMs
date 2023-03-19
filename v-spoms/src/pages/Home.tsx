@@ -5,20 +5,21 @@ export default function Home() {
   const navigate = useNavigate();
 
   const loadFileNetwork = (e: any) => {
-    const acceptedExtensions = ["json", "csv"]
+    const acceptedExtensions = ["json", "csv"];
     const fileReader = new FileReader();
     fileReader.readAsText(e.target.files[0], "UTF-8");
     fileReader.onload = () => {
       if (!fileReader.result) return;
       if (fileReader.result instanceof ArrayBuffer) return; // ?
-      const extension = e.target.files[0].name.split(".").pop()
-      console.log(extension)
-      if(acceptedExtensions.includes(extension))
-      {
-        const spomOptions = FileHandler.textToConfig(fileReader.result,extension);
+      const extension = e.target.files[0].name.split(".").pop();
+      console.log(extension);
+      if (acceptedExtensions.includes(extension)) {
+        const spomOptions = FileHandler.textToConfig(
+          fileReader.result,
+          extension
+        );
         navigate("/action", { state: { spomOptions: spomOptions } });
-      }
-      else{
+      } else {
         return;
       }
     };

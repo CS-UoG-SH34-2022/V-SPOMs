@@ -4,7 +4,6 @@ import { Engine } from "sim-spoms/src/engine/engine";
 import Parameter from "./Parameter";
 import { Setting } from "./setting.constant";
 
-
 export interface SmallDropDownProps extends Setting {
   engine: Engine;
   isOpen: boolean;
@@ -12,10 +11,14 @@ export interface SmallDropDownProps extends Setting {
   activeDropDown: string;
 }
 
-const SmallDropDown: React.FC<SmallDropDownProps> = (props: SmallDropDownProps) => {
+const SmallDropDown: React.FC<SmallDropDownProps> = (
+  props: SmallDropDownProps
+) => {
   const toggleDropDown = () => {
-    props.setActiveDropDown(props.activeDropDown === props.equation ? "" : props.equation)
-  }
+    props.setActiveDropDown(
+      props.activeDropDown === props.equation ? "" : props.equation
+    );
+  };
   return (
     <div className="m-3 mb-6">
       <div

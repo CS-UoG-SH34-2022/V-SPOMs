@@ -27,9 +27,13 @@ class MainNetwork extends Component<MainNetworkProps> {
   }
 
   render(): React.ReactNode {
-    return <div id={this.divID} 
-    className="h-full w-full"
-    style={{borderRight: "3px solid black"}}></div>; // Return parent div with svg inside
+    return (
+      <div
+        id={this.divID}
+        className="h-full w-full"
+        style={{ borderRight: "3px solid black" }}
+      ></div>
+    ); // Return parent div with svg inside
   }
 
   componentDidMount() {
@@ -132,7 +136,9 @@ class MainNetwork extends Component<MainNetworkProps> {
 
     if (this.props.activePatch != undefined) {
       if (patch.id === this.props.activePatch) {
-        patch_circle.attr("stroke", "#E7DF27").attr("stroke-width",this.props.network[patch.id].area / 8);
+        patch_circle
+          .attr("stroke", "#E7DF27")
+          .attr("stroke-width", this.props.network[patch.id].area / 8);
       }
     }
   }

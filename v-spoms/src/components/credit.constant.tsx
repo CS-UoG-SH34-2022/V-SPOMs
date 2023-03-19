@@ -15,5 +15,6 @@ export const CREDIT_DATA: credit = {
     "Emma Zhang",
     "Tianrun Zhao",
   ],
-  customer: "Dan Haydon - (School of Biodiversity, One Health and Veterinary Medicine)",
+  customer:
+    "Dan Haydon - (School of Biodiversity, One Health and Veterinary Medicine)",
 };

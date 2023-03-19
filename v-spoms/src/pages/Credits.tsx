@@ -22,9 +22,9 @@ const Credits = () => {
           </a>
         </span>
         <h1 className="font-semibold text-lg pt-2">Members</h1>
-          {CREDIT_DATA.members.map((member) => {
-            return <p key={member}>{member}</p>;
-          })}
+        {CREDIT_DATA.members.map((member) => {
+          return <p key={member}>{member}</p>;
+        })}
         <h1 className="font-semibold text-lg pt-2">Customer</h1>
         <p className="">{CREDIT_DATA.customer}</p>
       </div>
