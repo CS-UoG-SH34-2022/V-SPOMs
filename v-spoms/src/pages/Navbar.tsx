@@ -1,5 +1,6 @@
 import logo from "../assets/UofG_bar.png";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -35,6 +36,15 @@ const Navbar = () => {
             <Link to="/faq">
               <div>FAQ</div>
             </Link>
+          </li>
+          <li className="hover:bg-hover-blue">
+            <a
+              href="https://github.com/CS-UOG-SH34-2022/V-Spoms"
+              target="_blank"
+              rel="noopener"
+            >
+              <FaGithub />
+            </a>
           </li>
         </ul>
       </div>
