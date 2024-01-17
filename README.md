@@ -45,7 +45,7 @@ It is crucial for understanding the relationships between species, habitats, and
 # Authors and acknowledgment
 ### Full stack Developers
 *  [Kris Raviphas](https://www.linkedin.com/in/kris-raviphas/)
-*  [Paulius Jankauskas](#)
+*  [Paulius Jankauskas](https://github.com/murlock1000)
 *  [James Nurdin](https://www.linkedin.com/in/james-nurdin-596962190)
 ### Front end Developers
 * [Tianrun Zhao](#)
@@ -57,7 +57,7 @@ It is crucial for understanding the relationships between species, habitats, and
 ### UI/UX Designer
 * [Kris Raviphas](https://www.linkedin.com/in/kris-raviphas/)
 ### DevOps Engineer
-* [Paulius Jankauskas](#)
+* [Paulius Jankauskas](https://github.com/murlock1000)
 ### Testers
 * [James Nurdin](https://www.linkedin.com/in/james-nurdin-596962190)
 
